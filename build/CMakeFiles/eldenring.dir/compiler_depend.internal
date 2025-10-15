@@ -7,7 +7,6 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o
  /home/vboxuser/Downloads/git/EldenRingLoadout/Header Files/ArmorSet.h
  /home/vboxuser/Downloads/git/EldenRingLoadout/Header Files/Loadout.h
  /home/vboxuser/Downloads/git/EldenRingLoadout/Header Files/LoadoutLoader.h
- /home/vboxuser/Downloads/git/EldenRingLoadout/Header Files/LoadoutSaver.h
  /home/vboxuser/Downloads/git/EldenRingLoadout/Header Files/Physic.h
  /home/vboxuser/Downloads/git/EldenRingLoadout/Header Files/Spell.h
  /home/vboxuser/Downloads/git/EldenRingLoadout/Header Files/Spells.h
@@ -15,14 +14,6 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o
  /home/vboxuser/Downloads/git/EldenRingLoadout/Header Files/Talisman.h
  /home/vboxuser/Downloads/git/EldenRingLoadout/Header Files/Talismans.h
  /home/vboxuser/Downloads/git/EldenRingLoadout/Header Files/Weapon.h
- /home/vboxuser/Downloads/git/EldenRingLoadout/imgui/backends/imgui_impl_glfw.h
- /home/vboxuser/Downloads/git/EldenRingLoadout/imgui/backends/imgui_impl_opengl3.h
- /home/vboxuser/Downloads/git/EldenRingLoadout/imgui/imconfig.h
- /home/vboxuser/Downloads/git/EldenRingLoadout/imgui/imgui.h
- /usr/include/GL/gl.h
- /usr/include/GL/glext.h
- /usr/include/GLFW/glfw3.h
- /usr/include/KHR/khrplatform.h
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h
  /usr/include/asm-generic/errno-base.h
@@ -30,7 +21,6 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o
  /usr/include/asm-generic/int-ll64.h
  /usr/include/asm-generic/posix_types.h
  /usr/include/asm-generic/types.h
- /usr/include/assert.h
  /usr/include/c++/14/backward/binders.h
  /usr/include/c++/14/bit
  /usr/include/c++/14/bits/alloc_traits.h
@@ -55,6 +45,7 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o
  /usr/include/c++/14/bits/fs_fwd.h
  /usr/include/c++/14/bits/fs_ops.h
  /usr/include/c++/14/bits/fs_path.h
+ /usr/include/c++/14/bits/fstream.tcc
  /usr/include/c++/14/bits/functexcept.h
  /usr/include/c++/14/bits/functional_hash.h
  /usr/include/c++/14/bits/hash_bytes.h
@@ -131,6 +122,7 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o
  /usr/include/c++/14/ext/string_conversions.h
  /usr/include/c++/14/ext/type_traits.h
  /usr/include/c++/14/filesystem
+ /usr/include/c++/14/fstream
  /usr/include/c++/14/initializer_list
  /usr/include/c++/14/iomanip
  /usr/include/c++/14/ios
@@ -171,8 +163,6 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o
  /usr/include/stdint.h
  /usr/include/stdio.h
  /usr/include/stdlib.h
- /usr/include/string.h
- /usr/include/strings.h
  /usr/include/time.h
  /usr/include/wchar.h
  /usr/include/wctype.h
@@ -243,8 +233,10 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o
  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/c++/14/bits/atomic_word.h
+ /usr/include/x86_64-linux-gnu/c++/14/bits/basic_file.h
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++allocator.h
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h
+ /usr/include/x86_64-linux-gnu/c++/14/bits/c++io.h
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++locale.h
  /usr/include/x86_64-linux-gnu/c++/14/bits/cpu_defines.h
  /usr/include/x86_64-linux-gnu/c++/14/bits/ctype_base.h
@@ -261,7 +253,6 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h
  /usr/include/x86_64-linux-gnu/sys/types.h
- /usr/lib/gcc/x86_64-linux-gnu/14/include/float.h
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h

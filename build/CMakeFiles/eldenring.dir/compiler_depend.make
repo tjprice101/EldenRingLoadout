@@ -6,7 +6,6 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o: /home/vboxuser/Downloads/git/El
   /home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/ArmorSet.h \
   /home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Loadout.h \
   /home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/LoadoutLoader.h \
-  /home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/LoadoutSaver.h \
   /home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Physic.h \
   /home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Spell.h \
   /home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Spells.h \
@@ -14,14 +13,6 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o: /home/vboxuser/Downloads/git/El
   /home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Talisman.h \
   /home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Talismans.h \
   /home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Weapon.h \
-  /home/vboxuser/Downloads/git/EldenRingLoadout/imgui/backends/imgui_impl_glfw.h \
-  /home/vboxuser/Downloads/git/EldenRingLoadout/imgui/backends/imgui_impl_opengl3.h \
-  /home/vboxuser/Downloads/git/EldenRingLoadout/imgui/imconfig.h \
-  /home/vboxuser/Downloads/git/EldenRingLoadout/imgui/imgui.h \
-  /usr/include/GL/gl.h \
-  /usr/include/GL/glext.h \
-  /usr/include/GLFW/glfw3.h \
-  /usr/include/KHR/khrplatform.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -29,7 +20,6 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o: /home/vboxuser/Downloads/git/El
   /usr/include/asm-generic/int-ll64.h \
   /usr/include/asm-generic/posix_types.h \
   /usr/include/asm-generic/types.h \
-  /usr/include/assert.h \
   /usr/include/c++/14/backward/binders.h \
   /usr/include/c++/14/bit \
   /usr/include/c++/14/bits/alloc_traits.h \
@@ -54,6 +44,7 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o: /home/vboxuser/Downloads/git/El
   /usr/include/c++/14/bits/fs_fwd.h \
   /usr/include/c++/14/bits/fs_ops.h \
   /usr/include/c++/14/bits/fs_path.h \
+  /usr/include/c++/14/bits/fstream.tcc \
   /usr/include/c++/14/bits/functexcept.h \
   /usr/include/c++/14/bits/functional_hash.h \
   /usr/include/c++/14/bits/hash_bytes.h \
@@ -130,6 +121,7 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o: /home/vboxuser/Downloads/git/El
   /usr/include/c++/14/ext/string_conversions.h \
   /usr/include/c++/14/ext/type_traits.h \
   /usr/include/c++/14/filesystem \
+  /usr/include/c++/14/fstream \
   /usr/include/c++/14/initializer_list \
   /usr/include/c++/14/iomanip \
   /usr/include/c++/14/ios \
@@ -170,8 +162,6 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o: /home/vboxuser/Downloads/git/El
   /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -242,8 +232,10 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o: /home/vboxuser/Downloads/git/El
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/14/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/14/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/14/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/14/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/14/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/14/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/14/bits/ctype_base.h \
@@ -260,7 +252,6 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o: /home/vboxuser/Downloads/git/El
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/lib/gcc/x86_64-linux-gnu/14/include/float.h \
   /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h
@@ -4320,6 +4311,8 @@ CMakeFiles/eldenring.dir/Loadout/Armor.cpp.o:
 
 /usr/include/dlfcn.h:
 
+/home/vboxuser/Downloads/git/EldenRingLoadout/imgui/backends/imgui_impl_opengl3.h:
+
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-macros.h:
@@ -4351,6 +4344,10 @@ CMakeFiles/eldenring.dir/Loadout/Armor.cpp.o:
 /usr/include/wayland-client-core.h:
 
 /usr/include/unistd.h:
+
+/usr/include/signal.h:
+
+/usr/include/strings.h:
 
 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1:
 
@@ -4396,6 +4393,12 @@ CMakeFiles/eldenring.dir/Loadout/Talisman.cpp.o:
 
 /usr/include/X11/Xlib.h:
 
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/GLFW/glfw3.h:
+
+/usr/include/GL/glext.h:
+
 /home/vboxuser/Downloads/git/EldenRingLoadout/imgui/backends/imgui_impl_glfw.cpp:
 
 /usr/include/X11/X.h:
@@ -4420,21 +4423,35 @@ CMakeFiles/eldenring.dir/imgui/backends/imgui_impl_opengl3.cpp.o:
 
 /home/vboxuser/Downloads/git/EldenRingLoadout/Loadout/ArmorSet.cpp:
 
-/usr/include/x86_64-linux-gnu/c++/14/bits/c++io.h:
+/usr/include/c++/14/iostream:
 
-/usr/lib/gcc/x86_64-linux-gnu/14/include/tmmintrin.h:
+/usr/include/c++/14/bits/requires_hosted.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/14/include/sgxintrin.h:
+/usr/lib/gcc/x86_64-linux-gnu/14/include/avx5124fmapsintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/14/include/avx512vnniintrin.h:
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
-/usr/include/c++/14/fstream:
+/lib/x86_64-linux-gnu/libm.so.6:
 
-/usr/include/c++/14/bits/fstream.tcc:
+/usr/lib/gcc/x86_64-linux-gnu/14/include/fxsrintrin.h:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
+/usr/include/c++/14/iosfwd:
 
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+/usr/include/c++/14/bits/locale_conv.h:
+
+/lib/x86_64-linux-gnu/libX11.so.6:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/c++/14/bits/streambuf.tcc:
+
+/lib/x86_64-linux-gnu/libGLX.so.0:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/include/tbmintrin.h:
+
+/home/vboxuser/Downloads/git/EldenRingLoadout/Loadout/Talisman.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/c++/14/ext/alloc_traits.h:
 
@@ -4448,6 +4465,10 @@ CMakeFiles/eldenring.dir/imgui/backends/imgui_impl_opengl3.cpp.o:
 
 /usr/include/c++/14/ext/string_conversions.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/14/include/gfniintrin.h:
+
+/usr/include/c++/14/cstddef:
+
 /usr/include/c++/14/tr1/hypergeometric.tcc:
 
 /usr/include/c++/14/debug/debug.h:
@@ -4459,12 +4480,6 @@ CMakeFiles/eldenring.dir/Loadout/Spells.cpp.o:
 /usr/include/errno.h:
 
 /usr/include/c++/14/bits/version.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h:
-
-/usr/include/c++/14/bits/vector.tcc:
 
 /usr/include/c++/14/bits/uses_allocator_args.h:
 
@@ -4488,13 +4503,25 @@ CMakeFiles/eldenring.dir/Loadout/Spells.cpp.o:
 
 /usr/include/c++/14/pstl/pstl_config.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h:
+/usr/include/c++/14/tr1/beta_function.tcc:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/usr/include/X11/extensions/render.h:
+
+/usr/include/c++/14/bits/shared_ptr_base.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
+/usr/include/c++/14/vector:
+
+/usr/include/c++/14/bits/shared_ptr.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/include/wmmintrin.h:
 
 /usr/include/c++/14/bits/range_access.h:
+
+/usr/include/c++/14/ext/type_traits.h:
 
 /usr/include/c++/14/bits/quoted_string.h:
 
@@ -4508,63 +4535,15 @@ CMakeFiles/eldenring.dir/Loadout/Spells.cpp.o:
 
 /usr/include/c++/14/bits/nested_exception.h:
 
+/home/vboxuser/Downloads/git/EldenRingLoadout/imgui/imconfig.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/c++/14/ostream:
+
+/usr/include/c++/14/bits/parse_numbers.h:
+
 /usr/include/c++/14/bits/memoryfwd.h:
-
-/usr/include/c++/14/bits/memory_resource.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/include/amxtileintrin.h:
-
-/home/vboxuser/Downloads/git/EldenRingLoadout/IO/LoadoutSaver.cpp:
-
-/usr/include/c++/14/bits/uses_allocator.h:
-
-/usr/include/c++/14/bits/sstream.tcc:
-
-CMakeFiles/eldenring.dir/Loadout/Stats.cpp.o:
-
-/usr/include/c++/14/bits/localefwd.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/include/serializeintrin.h:
-
-/usr/include/c++/14/bits/unique_ptr.h:
-
-/usr/include/c++/14/bits/locale_facets_nonio.h:
-
-/usr/include/x86_64-linux-gnu/c++/14/bits/c++allocator.h:
-
-/lib/x86_64-linux-gnu/libX11.so.6:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/usr/include/c++/14/bits/streambuf.tcc:
-
-/lib/x86_64-linux-gnu/libGLX.so.0:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/include/tbmintrin.h:
-
-/home/vboxuser/Downloads/git/EldenRingLoadout/Loadout/Talisman.cpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/c++/14/bits/stl_algobase.h:
-
-/usr/include/x86_64-linux-gnu/sys/wait.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/14/bits/stl_iterator.h:
-
-CMakeFiles/eldenring.dir/Loadout/Weapon.cpp.o:
-
-/home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Talisman.h:
-
-/usr/include/c++/14/ext/concurrence.h:
-
-/usr/include/c++/14/cwchar:
-
-/usr/include/c++/14/tr1/special_function_util.h:
-
-/usr/include/c++/14/stdexcept:
 
 /lib/x86_64-linux-gnu/libXdmcp.so.6:
 
@@ -4578,37 +4557,23 @@ CMakeFiles/eldenring.dir/Loadout/Weapon.cpp.o:
 
 /usr/include/stdc-predef.h:
 
-/usr/lib/x86_64-linux-gnu/libm.so:
+/usr/include/c++/14/bits/memory_resource.h:
 
-/usr/include/c++/14/ios:
+/usr/include/c++/14/bits/stl_algobase.h:
 
-/usr/include/asm-generic/int-ll64.h:
+/usr/include/x86_64-linux-gnu/sys/wait.h:
 
-CMakeFiles/eldenring.dir/Loadout/Spell.cpp.o:
+/usr/include/asm-generic/errno-base.h:
 
-/usr/include/c++/14/bits/stl_bvector.h:
+/usr/include/c++/14/bits/stl_iterator.h:
 
-/usr/include/c++/14/bits/new_allocator.h:
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
-/usr/include/c++/14/bits/locale_classes.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/include/gfniintrin.h:
-
-/usr/include/c++/14/cstddef:
+/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/c++/14/bits/allocated_ptr.h:
-
-/usr/include/math.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/alloca.h:
-
-/usr/include/c++/14/bits/shared_ptr.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
 
 /home/vboxuser/Downloads/git/EldenRingLoadout/Loadout/Talismans.cpp:
 
@@ -4616,39 +4581,11 @@ CMakeFiles/eldenring.dir/Loadout/Spell.cpp.o:
 
 /usr/include/linux/stddef.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+/usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so:
 
-/usr/include/c++/14/bits/ios_base.h:
+/usr/include/c++/14/bits/chrono.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/14/include/shaintrin.h:
-
-/usr/include/c++/14/bits/locale_facets_nonio.tcc:
-
-/usr/include/c++/14/bits/ptr_traits.h:
-
-/home/vboxuser/Downloads/git/EldenRingLoadout/imgui/backends/imgui_impl_glfw.h:
-
-/usr/include/c++/14/bits/ostream_insert.h:
-
-/usr/include/c++/14/bits/stl_pair.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h:
-
-/home/vboxuser/Downloads/git/EldenRingLoadout/imgui/backends/imgui_impl_opengl3.h:
-
-/usr/include/c++/14/bits/locale_conv.h:
-
-/lib/x86_64-linux-gnu/libm.so.6:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/include/fxsrintrin.h:
-
-/usr/include/c++/14/iosfwd:
-
-/home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Armor.h:
-
-/home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/ArmorSet.h:
+/usr/include/c++/14/bit:
 
 /usr/include/c++/14/bits/string_view.tcc:
 
@@ -4666,27 +4603,49 @@ CMakeFiles/eldenring.dir/Loadout/Spell.cpp.o:
 
 /usr/include/c++/14/codecvt:
 
-/usr/include/c++/14/bits/requires_hosted.h:
-
-/usr/include/c++/14/iostream:
-
-/usr/include/signal.h:
-
-/usr/include/strings.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/include/avx5124fmapsintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
 /usr/include/c++/14/cstdint:
 
 /home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Talismans.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so:
+/home/vboxuser/Downloads/git/EldenRingLoadout/imgui/backends/imgui_impl_opengl3_loader.h:
 
-/usr/include/c++/14/bits/chrono.h:
+/usr/include/c++/14/backward/binders.h:
 
-/usr/include/c++/14/bit:
+CMakeFiles/eldenring.dir/Loadout/Weapon.cpp.o:
+
+/home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Talisman.h:
+
+/usr/include/c++/14/ext/concurrence.h:
+
+/usr/include/c++/14/cwchar:
+
+/usr/include/c++/14/tr1/special_function_util.h:
+
+/usr/include/c++/14/stdexcept:
+
+/usr/lib/x86_64-linux-gnu/libm.so:
+
+/usr/include/c++/14/ios:
+
+/usr/include/asm-generic/int-ll64.h:
+
+CMakeFiles/eldenring.dir/Loadout/Spell.cpp.o:
+
+/usr/include/c++/14/bits/stl_bvector.h:
+
+/usr/include/c++/14/bits/new_allocator.h:
+
+/usr/include/c++/14/bits/locale_classes.h:
+
+/usr/include/c++/14/bits/ostream_insert.h:
+
+/usr/include/c++/14/bits/stl_pair.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h:
+
+/home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Armor.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/include/emmintrin.h:
 
@@ -4706,19 +4665,13 @@ CMakeFiles/eldenring.dir/Loadout/Spell.cpp.o:
 
 /usr/include/x86_64-linux-gnu/asm/posix_types.h:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
+/usr/lib/gcc/x86_64-linux-gnu/14/include/float.h:
 
-/usr/include/c++/14/ostream:
+/usr/include/c++/14/istream:
 
-/usr/include/c++/14/bits/parse_numbers.h:
+/lib/x86_64-linux-gnu/libmvec.so.1:
 
-/home/vboxuser/Downloads/git/EldenRingLoadout/imgui/imconfig.h:
-
-/usr/include/c++/14/tr1/ell_integral.tcc:
-
-/home/vboxuser/Downloads/git/EldenRingLoadout/Loadout/Armor.cpp:
-
-/usr/include/c++/14/bits/move.h:
+/usr/include/stdlib.h:
 
 /usr/include/libintl.h:
 
@@ -4726,19 +4679,27 @@ CMakeFiles/eldenring.dir/Loadout/Spell.cpp.o:
 
 /usr/include/linux/posix_types.h:
 
-/usr/include/GL/glext.h:
+/usr/include/string.h:
 
-/usr/include/c++/14/bits/charconv.h:
+/usr/include/c++/14/bits/allocator.h:
 
-/usr/include/c++/14/bits/basic_ios.tcc:
+/usr/lib/gcc/x86_64-linux-gnu/14/include/sm4intrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/14/include/enqcmdintrin.h:
+/usr/include/X11/Xdefs.h:
 
-/usr/include/wayland-client.h:
+/usr/include/c++/14/bits/refwrap.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+/home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Loadout.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+CMakeFiles/eldenring.dir/imgui/imgui_tables.cpp.o:
+
+/usr/include/c++/14/bits/alloc_traits.h:
+
+/home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Physic.h:
+
+/home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Weapon.h:
+
+/usr/include/x86_64-linux-gnu/c++/14/bits/ctype_base.h:
 
 /home/vboxuser/Downloads/git/EldenRingLoadout/imgui/imgui_widgets.cpp:
 
@@ -4762,51 +4723,11 @@ CMakeFiles/eldenring.dir/IO/LoadoutSaver.cpp.o:
 
 /usr/include/c++/14/bits/fs_ops.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/14/include/sm4intrin.h:
-
-/usr/include/X11/Xdefs.h:
-
-/usr/include/c++/14/bits/refwrap.h:
-
-/home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Loadout.h:
-
-/usr/include/c++/14/tr1/beta_function.tcc:
-
-/usr/include/X11/extensions/render.h:
-
-/usr/include/c++/14/bits/shared_ptr_base.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
-
-/usr/include/c++/14/vector:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
-
-/usr/include/c++/14/concepts:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/include/usermsrintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
-
-/usr/include/x86_64-linux-gnu/c++/14/bits/c++locale.h:
-
 /usr/include/c++/14/bits/cxxabi_init_exception.h:
 
 /usr/include/c++/14/string_view:
 
 /usr/include/c++/14/ext/atomicity.h:
-
-/usr/include/c++/14/limits:
-
-/usr/include/c++/14/iomanip:
-
-/usr/include/c++/14/bits/functional_hash.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/include/uintrintrin.h:
 
@@ -4814,41 +4735,29 @@ CMakeFiles/eldenring.dir/IO/LoadoutSaver.cpp.o:
 
 /usr/include/features.h:
 
-/usr/include/c++/14/bits/fs_path.h:
+/usr/include/c++/14/bits/charconv.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/14/include/amxint8intrin.h:
+/usr/include/c++/14/bits/basic_ios.tcc:
 
-/usr/include/c++/14/bits/functexcept.h:
+/usr/lib/gcc/x86_64-linux-gnu/14/include/enqcmdintrin.h:
 
-/usr/include/pthread.h:
+/usr/include/wayland-client.h:
 
-/home/vboxuser/Downloads/git/EldenRingLoadout/imgui/backends/imgui_impl_opengl3_loader.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
-/usr/include/c++/14/backward/binders.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
-/home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Physic.h:
+/home/vboxuser/Downloads/git/EldenRingLoadout/IO/LoadoutLoader.cpp:
 
-/home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/Weapon.h:
+/usr/include/c++/14/bits/utility.h:
 
-/usr/include/x86_64-linux-gnu/c++/14/bits/ctype_base.h:
+/usr/include/c++/14/cstdio:
 
-CMakeFiles/eldenring.dir/imgui/imgui_tables.cpp.o:
+/usr/include/c++/14/bits/exception.h:
 
-/usr/include/c++/14/bits/alloc_traits.h:
+/usr/include/c++/14/bits/fs_dir.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/14/include/mwaitxintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/dl_find_object.h:
-
-/usr/include/c++/14/bits/stringfwd.h:
-
-/usr/include/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/GLFW/glfw3.h:
-
-/usr/include/c++/14/bits/exception_ptr.h:
+/usr/include/c++/14/bits/basic_ios.h:
 
 /usr/include/inttypes.h:
 
@@ -4856,17 +4765,11 @@ CMakeFiles/eldenring.dir/imgui/imgui_tables.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
-/usr/include/c++/14/bits/basic_ios.h:
+/usr/include/math.h:
 
-/usr/include/c++/14/bits/exception.h:
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
-/usr/include/c++/14/bits/fs_dir.h:
-
-/home/vboxuser/Downloads/git/EldenRingLoadout/IO/LoadoutLoader.cpp:
-
-/usr/include/c++/14/bits/utility.h:
-
-/usr/include/c++/14/cstdio:
+/usr/include/alloca.h:
 
 /usr/include/c++/14/bits/locale_facets.h:
 
@@ -4890,15 +4793,45 @@ CMakeFiles/eldenring.dir/imgui/imgui_tables.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/usr/include/endian.h:
+/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
 
-/usr/include/stdint.h:
+/usr/include/c++/14/concepts:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/include/usermsrintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/usr/include/x86_64-linux-gnu/c++/14/bits/c++locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/c++/14/cwctype:
 
+/usr/lib/gcc/x86_64-linux-gnu/14/include/amxint8intrin.h:
+
+/usr/include/c++/14/bits/functexcept.h:
+
+/usr/include/c++/14/bits/fs_path.h:
+
+/usr/include/pthread.h:
+
+/usr/include/c++/14/bits/fstream.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/include/tmmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/include/sgxintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/include/avx512vnniintrin.h:
+
+/usr/include/c++/14/fstream:
+
 /usr/include/c++/14/bits/invoke.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/c++/14/bits/ios_base.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/idtype_t.h:
 
@@ -4906,15 +4839,55 @@ CMakeFiles/eldenring.dir/imgui/imgui_tables.cpp.o:
 
 /usr/include/c++/14/bits/istream.tcc:
 
-/usr/include/c++/14/ext/type_traits.h:
+/home/vboxuser/Downloads/git/EldenRingLoadout/Header\ Files/ArmorSet.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/14/include/float.h:
+/usr/lib/gcc/x86_64-linux-gnu/14/include/mwaitxintrin.h:
 
-/usr/include/c++/14/istream:
+/usr/include/x86_64-linux-gnu/bits/dl_find_object.h:
 
-/lib/x86_64-linux-gnu/libmvec.so.1:
+/usr/include/c++/14/bits/stringfwd.h:
 
-/usr/include/stdlib.h:
+/usr/include/c++/14/bits/exception_ptr.h:
+
+/usr/include/stdio.h:
+
+/usr/include/c++/14/bits/locale_facets_nonio.h:
+
+/usr/include/x86_64-linux-gnu/c++/14/bits/c++allocator.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/include/serializeintrin.h:
+
+/usr/include/c++/14/bits/unique_ptr.h:
+
+/usr/include/c++/14/bits/functional_hash.h:
+
+/usr/include/c++/14/iomanip:
+
+/usr/include/c++/14/limits:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/include/shaintrin.h:
+
+/home/vboxuser/Downloads/git/EldenRingLoadout/imgui/backends/imgui_impl_glfw.h:
+
+/usr/include/c++/14/bits/ptr_traits.h:
+
+/usr/include/c++/14/bits/locale_facets_nonio.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/include/amxtileintrin.h:
+
+/home/vboxuser/Downloads/git/EldenRingLoadout/IO/LoadoutSaver.cpp:
+
+/usr/include/c++/14/bits/uses_allocator.h:
+
+/usr/include/c++/14/bits/sstream.tcc:
+
+CMakeFiles/eldenring.dir/Loadout/Stats.cpp.o:
+
+/usr/include/c++/14/bits/localefwd.h:
+
+/usr/include/stdint.h:
+
+/usr/include/endian.h:
 
 /usr/include/c++/14/exception:
 
@@ -4927,6 +4900,12 @@ CMakeFiles/eldenring.dir/imgui/imgui_tables.cpp.o:
 /usr/include/c++/14/string:
 
 /usr/include/c++/14/tuple:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/c++/14/bits/vector.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h:
 
 /usr/include/c++/14/type_traits:
 
@@ -4965,10 +4944,6 @@ CMakeFiles/eldenring.dir/imgui/imgui_tables.cpp.o:
 /usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/14/bits/allocator.h:
-
-/usr/include/string.h:
 
 /usr/include/wchar.h:
 
@@ -5012,9 +4987,9 @@ CMakeFiles/eldenring.dir/Loadout/Talismans.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/usr/include/c++/14/bits/postypes.h:
-
 /usr/include/c++/14/initializer_list:
+
+/usr/include/c++/14/bits/postypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -5104,12 +5079,6 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
-/usr/include/x86_64-linux-gnu/c++/14/bits/basic_file.h:
-
-/usr/include/x86_64-linux-gnu/c++/14/bits/gthr.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
@@ -5120,21 +5089,25 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/x86_64-linux-gnu/c++/14/bits/gthr-default.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/14/include/pmmintrin.h:
 
 /usr/include/x86_64-linux-gnu/c++/14/bits/atomic_word.h:
+
+/usr/include/x86_64-linux-gnu/c++/14/bits/gthr.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/c++/14/bits/basic_file.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/x86_64-linux-gnu/c++/14/bits/cpu_defines.h:
 
 /usr/include/c++/14/cerrno:
 
 /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/x86_64-linux-gnu/c++/14/bits/cpu_defines.h:
+/usr/include/x86_64-linux-gnu/c++/14/bits/c++io.h:
 
 /usr/include/c++/14/clocale:
 
@@ -5144,6 +5117,24 @@ CMakeFiles/eldenring.dir/IO/LoadoutLoader.cpp.o:
 
 /usr/include/x86_64-linux-gnu/c++/14/bits/messages_members.h:
 
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
 /usr/include/x86_64-linux-gnu/c++/14/bits/time_members.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/c++/14/bits/gthr-default.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h:
+
+/usr/include/c++/14/tr1/ell_integral.tcc:
+
+/usr/include/c++/14/bits/move.h:
+
+/home/vboxuser/Downloads/git/EldenRingLoadout/Loadout/Armor.cpp:
