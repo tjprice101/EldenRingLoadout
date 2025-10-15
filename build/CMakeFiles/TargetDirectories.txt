@@ -1,0 +1,3 @@
+/home/vboxuser/Downloads/git/EldenRingLoadout/build/CMakeFiles/eldenring.dir
+/home/vboxuser/Downloads/git/EldenRingLoadout/build/CMakeFiles/edit_cache.dir
+/home/vboxuser/Downloads/git/EldenRingLoadout/build/CMakeFiles/rebuild_cache.dir
